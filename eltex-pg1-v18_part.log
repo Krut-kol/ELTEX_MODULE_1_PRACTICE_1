@@ -1,0 +1,110 @@
+Script started on 2026-10-14 16:36:43+07:00 [TERM="dumb" TTY="/dev/pts/12" COLUMNS="237" LINES="62"]
+eltex-pg1-v18@eltex-2026-autumn:~$ ls
+ls           lsattr       lsblk        lsb_release  lscpu        lsfd         lsinitramfs  lsipc        lsirq        lslocks      lslogins     lsmem        lsmod        lsns         lsof         lspci        lsusb        
+eltex-pg1-v18@eltex-2026-autumn:~$ ls  ex cho $HIST
+$HISTCMD       $HISTCONTROL   $HISTFILE      $HISTFILESIZE  $HISTSIZE      
+eltex-pg1-v18@eltex-2026-autumn:~$ echo $HIST          ech  xport        echo $HISTFILESIZR E
+2000
+eltex-pg1-v18@eltex-2026-autumn:~$ li s -a ~ | grep '^\.'
+.
+..
+.bash_history
+.bash_logout
+.bashrc
+.config
+.profile
+.viminfo
+eltex-pg1-v18@eltex-2026-autumn:~$ export HISTTIMEFORMAT  ='%d F %T '
+eltex-pg1-v18@eltex-2026-autumn:~$ history | tail
+   72  2026-10-14 15:02:11 export TERM=dumb
+   73  2026-10-14 15:02:35 script -q ${USER}_part.log
+   74  2026-10-14 16:32:45 exit
+   75  2026-10-14 16:36:43 export TERM=dumb
+   76  2026-10-14 16:36:43 script -q  ${USER}_part.log
+   77  2026-10-14 16:36:43 exit
+   78  2026-10-14 16:37:19 echo $HISTFILESIZE
+   79  2026-10-14 16:37:38 ls -a ~ | grep '^\.'
+   80  2026-10-14 16:44:01 export HISTTIMEFORMAT='%F %T '
+   81  2026-10-14 16:44:07 history | tail
+eltex-pg1-v18@eltex-2026-autumn:~$ date
+Wed Oct 14 04:44:51 PM +07 2026
+eltex-pg1-v18@eltex-2026-autumn:~$ history | tail -n 3
+   81  2026-10-14 16:44:07 history | tail
+   82  2026-10-14 16:44:51 date
+   83  2026-10-14 16:45:00 history | tail -n 3
+eltex-pg1-v18@eltex-2026-autumn:~$ tail -n 3 ~/.bash_historu y
+export TERM=dumb
+script -q  ${USER}_part.log
+exit
+eltex-pg1-v18@eltex-2026-autumn:~$ export PROMPT_COMMAND='history -a'
+eltex-pg1-v18@eltex-2026-autumn:~$ date
+Wed Oct 14 04:45:40 PM +07 2026
+eltex-pg1-v18@eltex-2026-autumn:~$ dateexport PROMPT_COMMAND='history -a'tail -n 3 ~/.bash_history         
+export PROMPT_COMMAND='history -a'
+#1791971140
+date
+eltex-pg1-v18@eltex-2026-autumn:~$ DATE=%(date + %F)
+bash: syntax error near unexpected token `('
+eltex-pg1-v18@eltex-2026-autumn:~$ DATE=%(date + %F)tail -n 3 ~/.bash_historydate                     tail -n 3 ~/.bash_historyDATE=%(date + %F)                         DATE=$(date + %F)
+date: extra operand ‘%F’
+Try 'date --help' for more information.
+eltex-pg1-v18@eltex-2026-autumn:~$ DATE=$(date + %F)    %F)
+eltex-pg1-v18@eltex-2026-autumn:~$ TIME  =$(date +%H:%M:%S)
+eltex-pg1-v18@eltex-2026-autumn:~$ DATE_TIME="$DATE %TIME) "
+eltex-pg1-v18@eltex-2026-autumn:~$ echo DATE_TIME
+DATE_TIME
+eltex-pg1-v18@eltex-2026-autumn:~$ echo DATE
+DATE
+eltex-pg1-v18@eltex-2026-autumn:~$ echo DATE    % $DATE_TIME
+2026-10-14 %TIME
+eltex-pg1-v18@eltex-2026-autumn:~$ echo $DATE_TIMEDATE      $DATE_TIME     
+2026-10-14
+eltex-pg1-v18@eltex-2026-autumn:~$ echo $DATE    TIME
+16:56:18
+eltex-pg1-v18@eltex-2026-autumn:~$ echo $TIMEDATE_TIMEDATE      _TIMEDATE_TIME="$DATE %TIME"      $TIME"
+eltex-pg1-v18@eltex-2026-autumn:~$ DATE_TIME="$DATE $TIME"echo $TIME             DATE_TIME
+2026-10-14 16:56:18
+eltex-pg1-v18@eltex-2026-autumn:~$ fing f d /bin /sbin -maxdepth 1 -tu ype f -name '*[0-9]*'
+eltex-pg1-v18@eltex-2026-autumn:~$ find /bin /sbin -maxdepth 1 -type f -name '*[0-9]*'eltex-pg1-v18@eltex-2026-autumn:~$                                                    eltex-pg1-v18@eltex-2026-autumn:~$ find /bin /sbin -maxdepth 1 -type f -name '*[0-9]*'eltex-pg1-v18@eltex-2026-autumn:~$                                                    eltex-pg1-v18@eltex-2026-autumn:~$ find /bin /sbin -maxdepth 1 -type f -name '*[0-9]*'г /bin /sbin -maxdepth 1 -type f -name '*[0-9]*'eltex-pg1-v18@eltex-2026-autumn:~$ findг /bin /sbin -maxdepth 1 -type f -name '*[0-9]*' eltex-pg1-v18@eltex-2026-autumn:~$ findeltex-pg1-v18@eltex-2026-autumn:~$ find  /bin /sbin -maxdepth 1 -type f -name '*[0-9]*'eltex-pg1-v18@eltex-2026-autumn:~$ find u /bin /sbin -maxdepth 1 -type f -name '*[0-9]*'eltex-pg1-v18@eltex-2026-autumn:~$ find us /bin /sbin -maxdepth 1 -type f -name '*[0-9]*'eltex-pg1-v18@eltex-2026-autumn:~$ find usr /bin /sbin -maxdepth 1 -type f -name '*[0-9]*'eltex-pg1-v18@eltex-2026-autumn:~$ find usr/ /bin /sbin -maxdepth 1 -type f -name '*[0-9]*'eltex-pg1-v18@eltex-2026-autumn:~$ find usr/ /bin /sbin -maxdepth 1 -type f -name '*[0-9]*' eltex-pg1-v18@eltex-2026-autumn:~$ find usreltex-pg1-v18@eltex-2026-autumn:~$ find usr eltex-pg1-v18@eltex-2026-autumn:~$ find usr / /bin /sbin -maxdepth 1 -type f -name '*[0-9]*' eltex-pg1-v18@eltex-2026-autumn:~$ find useltex-pg1-v18@eltex-2026-autumn:~$ find eltex-pg1-v18@eltex-2026-autumn:~$ find ueltex-pg1-v18@eltex-2026-autumn:~$ find useltex-pg1-v18@eltex-2026-autumn:~$ find us eltex-pg1-v18@eltex-2026-autumn:~$ find us //bin /sbin -maxdepth 1 -type f -name '*[0-9]*' eltex-pg1-v18@eltex-2026-autumn:~$ find usrs/bin /sbin -maxdepth 1 -type f -name '*[0-9]*'eltex-pg1-v18@eltex-2026-autumn:~$ find urs/bin /sbin -maxdepth 1 -type f -name '*[0-9]*' eltex-pg1-v18@eltex-2026-autumn:~$ find urs/bin /sbin -maxdepth 1 -type f -name '*[0-9]*'eltex-pg1-v18@eltex-2026-autumn:~$ find urs/bin /sbin -maxdepth 1 -type f -name '*[0-9]*' eltex-pg1-v18@eltex-2026-autumn:~$ find ueltex-pg1-v18@eltex-2026-autumn:~$ find uss/bin /sbin -maxdepth 1 -type f -name '*[0-9]*'eltex-pg1-v18@eltex-2026-autumn:~$ find usrs/bin /sbin -maxdepth 1 -type f -name '*[0-9]*'eltex-pg1-v18@eltex-2026-autumn:~$ find usrs/bin /sbin -maxdepth 1 -type f -name '*[0-9]*' eltex-pg1-v18@eltex-2026-autumn:~$ find us/bin /sbin -maxdepth 1 -type f -name '*[0-9]*' eltex-pg1-v18@eltex-2026-autumn:~$ find us/bin /sbin -maxdepth 1 -type f -name '*[0-9]*' eltex-pg1-v18@eltex-2026-autumn:~$ find s/bin /sbin -maxdepth 1 -type f -name '*[0-9]*' eltex-pg1-v18@eltex-2026-autumn:~$ find s/bin /sbin -maxdepth 1 -type f -name '*[0-9]*'eltex-pg1-v18@eltex-2026-autumn:~$ find \s/bin /sbin -maxdepth 1 -type f -name '*[0-9]*'eltex-pg1-v18@eltex-2026-autumn:~$ find \s/bin /sbin -maxdepth 1 -type f -name '*[0-9]*' eltex-pg1-v18@eltex-2026-autumn:~$ find s/bin /sbin -maxdepth 1 -type f -name '*[0-9]*' eltex-pg1-v18@eltex-2026-autumn:~$ find                                                   eltex-pg1-v18@eltex-2026-autumn:~$ finds/bin /sbin -maxdepth 1 -type f -name '*[0-9]*'                                                usr t/  r/bin         /use r/bin /usr/sbin -maxdepth 1 -type f -name '*[0-9]*'
+/usr/bin/pod2html
+/usr/bin/python3.11
+/usr/bin/ssh-argv0
+/usr/bin/c99-gcc
+/usr/bin/x86_64-linux-gnu-gcc-ar-12
+/usr/bin/base64
+/usr/bin/x86_64-linux-gnu-gcc-ranlib-12
+/usr/bin/enc2xs
+/usr/bin/x86_64-linux-gnu-gcov-12
+/usr/bin/pod2usage
+/usr/bin/x86_64-linux-gnu-objdump
+/usr/bin/sha224sum
+/usr/bin/x86_64-linux-gnu-objcopy
+/usr/bin/bzip2
+/usr/bin/x86_64-linux-gnu-readelf
+/usr/bin/x86_64-linux-gnu-ar
+/usr/bin/grub-mkpasswd-pbkdf2
+/usr/bin/md5sum
+/usr/bin/bzip2recover
+/usr/bin/grub-menulst2cfg
+/usr/bin/x86_64-linux-gnu-cpp-12
+/usr/bin/x86_64-linux-gnu-size
+/usr/bin/x86_64-linux-gnu-gprofng
+/usr/bin/x86_64-linux-gnu-gprof
+/usr/bin/h2xs
+/usr/bin/x86_64-linux-gnu-ranlib
+/usr/bin/x86_64-linux-gnu-ld.gold
+/usr/bin/x86_64-linux-gnu-as
+/usr/bin/pod2text
+/usr/bin/x86_64-linux-gnu-nm
+/usr/bin/x86_64-linux-gnu-elfedit
+/usr/bin/x86_64-linux-gnu-strip
+/usr/bin/x86_64-linux-gnu-gcc-nm-12
+/usr/bin/perl5.36.0
+/usr/bin/x86_64-linux-gnu-ld.bfd
+/usr/bin/pydoc3.11
+/usr/bin/x86_64-linux-gnu-gcov-tool-12
+/usr/bin/b2sum
+/usr/bin/x86_64-linux-gnu-lto-dump-12
+/usr/bin/pod2man
+/usr/bin/sha1sum
+/usr/bin/c8
